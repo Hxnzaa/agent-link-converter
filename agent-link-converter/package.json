@@ -1,0 +1,13 @@
+{
+  "name": "agent-link-converter",
+  "version": "0.1.0",
+  "description": "Convert Taobao, Tmall, Weidian and 1688 product URLs into shopping-agent product links. No dependencies, no network access.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=18" }
+}
